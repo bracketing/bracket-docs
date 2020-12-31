@@ -1,18 +1,18 @@
 {
-  "name": "docs",
-  "version": "1.0.0",
-  "description": "docs",
-  "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "@vuepress/plugin-active-header-links": "^1.2.0",
-    "@vuepress/plugin-back-to-top": "^1.2.0",
-    "@vuepress/plugin-google-analytics": "^1.2.0",
-    "@vuepress/plugin-medium-zoom": "^1.2.0",
-    "@vuepress/plugin-nprogress": "^1.2.0",
-    "@vuepress/plugin-pwa": "^1.2.0",
-    "vuepress": "^1.2.0"
-  }
+	"name": "docs",
+	"version": "1.0.0",
+	"description": "docs",
+	"scripts": {
+		"dev": "vuepress dev",
+		"build": "vuepress build"
+	},
+	"devDependencies": {
+		"@vuepress/plugin-active-header-links": "^1.2.0",
+		"@vuepress/plugin-back-to-top": "^1.2.0",
+		"@vuepress/plugin-google-analytics": "^1.2.0",
+		"@vuepress/plugin-medium-zoom": "^1.2.0",
+		"@vuepress/plugin-nprogress": "^1.2.0",
+		"@vuepress/plugin-pwa": "^1.2.0",
+		"vuepress": "^1.2.0"
+	}
+}
