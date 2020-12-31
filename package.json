@@ -4,7 +4,7 @@
 	"description": "docs",
 	"scripts": {
 		"dev": "vuepress dev",
-		"build": "vuepress build"
+		"build": "date > generated.txt & echo "bracket.ink" > ./docs/CNAME & vuepress build"
 	},
 	"devDependencies": {
 		"@vuepress/plugin-active-header-links": "^1.2.0",
